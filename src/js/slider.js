@@ -14,10 +14,18 @@ $('.reviews1-slider').slick({
   dots: false,
 });
 
-$('.reviews2-slider').slick({
+$('.pommels-slider').slick({
   infinite: true,
   slidesToShow: 5,
   slidesToScroll: 5,
+  arrows: true,
+  dots: false,
+});
+
+$('.office-flagpole-stands-slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
   arrows: true,
   dots: false,
 });
