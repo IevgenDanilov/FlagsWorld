@@ -1,6 +1,6 @@
 .about {
   background-color: var(--secondary-bg);
-  background-image: url(../images/mobile/about-bg.png);
+  // background-image: url(../images/mobile/about-bg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left 0 bottom 100px;
@@ -97,18 +97,18 @@
   margin-left: 18px;
 }
 @media screen and (max-width: 767px) {
-  .about {
-    background-image: url(../images/mobile/about-bg-web.webp),
-      url(../images/mobile/about-bg.png);
-  }
+  // .about {
+  // background-image: url(../images/mobile/about-bg-web.webp),
+  // url(../images/mobile/about-bg.png);
+  // }
 }
 @media (min-device-pixel-ratio: 2) and (max-width: 767px),
   (min-resolution: 192dpi) and (max-width: 767px),
   (min-resolution: 2dppx) and (max-width: 767px) {
-  .about {
-    background-image: url(../images/mobile/about-bg-web@2x.webp),
-      url(../images/mobile/about-bg@2x.png);
-  }
+  // .about {
+  //   background-image: url(../images/mobile/about-bg-web@2x.webp),
+  //     url(../images/mobile/about-bg@2x.png);
+  // }
 }
 @media screen and(min-width: 768px) {
   .about {
@@ -194,13 +194,13 @@
   }
 }
 @media screen and(min-width: 1280px) {
-  .about {
-    background-image: url(../images/desktop/about-bg-web.webp),
-      url(../images/desktop/about-bg.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left 50% bottom -26px;
-  }
+  // .about {
+  //   background-image: url(../images/desktop/about-bg-web.webp),
+  //     url(../images/desktop/about-bg.png);
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+  //   background-position: left 50% bottom -26px;
+  // }
   .about__title-box {
     width: 540px;
     margin-bottom: 55px;
@@ -280,10 +280,10 @@
 @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
   (min-resolution: 192dpi) and (min-width: 1280px),
   (min-resolution: 2dppx) and (min-width: 1280px) {
-  .about {
-    background-image: url(../images/desktop/about-bg-web@2x.webp),
-      url(../images/desktop/about-bg@2x.png);
-  }
+  // .about {
+  //   background-image: url(../images/desktop/about-bg-web@2x.webp),
+  //     url(../images/desktop/about-bg@2x.png);
+  // }
 }
 // Моя модалка
 .modal-description {

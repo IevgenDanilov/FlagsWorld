@@ -174,8 +174,8 @@
 @media screen and (min-width: 1280px) {
   .contacts-section {
     padding-bottom: 165px;
-    background-image: url('../images/desktop/contacts-bg.png'),
-      linear-gradient(to bottom, var(--clear-white) 0% 17%, var(--secondary-bg) 17% 100%);
+    // background-image: url('../images/desktop/contacts-bg.png'),
+    //   linear-gradient(to bottom, var(--clear-white) 0% 17%, var(--secondary-bg) 17% 100%);
     background-position: left 0 top 100px, left top;
     background-size: contain;
     background-repeat: no-repeat;

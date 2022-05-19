@@ -22,6 +22,14 @@ $('.pommels-slider').slick({
   dots: false,
 });
 
+$('.barrier-systems-slider').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  arrows: true,
+  dots: false,
+});
+
 $('.vinder-flagpoles-slider').slick({
   infinite: true,
   slidesToShow: 4,
